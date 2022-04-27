@@ -1250,6 +1250,26 @@
     "category": "weapons"
   },
   {
+    "id": "shillelagh_unsmoked",
+    "type": "GENERIC",
+    "symbol": "/",
+    "color": "brown",
+    "name": { "str": "unsmoked shillelagh" },
+    "description": "A stout knotty stick with a large knob at the top. This one hasn't been smoked yet, and feels unpleasantly greasy in your hands.",
+    "price": 5000,
+    "material": [ "wood" ],
+    "flags": [ "BELT_CLIP", "SMOKABLE" ],
+    "weapon_category": [ "BATONS", "FENCING_WEAPONRY" ],
+    "weight": "910 g",
+    "volume": "1500 ml",
+    "longest_side": "100 cm",
+    "bashing": 24,
+    "to_hit": { "grip": "bad", "length": "long", "surface": "any", "balance": "good" },
+    "price_postapoc": 250,
+    "category": "weapons",
+    "smoking_result": "shillelagh"
+  },
+  {
     "id": "shillelagh_weighted",
     "type": "GENERIC",
     "symbol": "/",

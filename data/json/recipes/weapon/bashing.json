@@ -32,6 +32,21 @@
   },
   {
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "shillelagh_unsmoked",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_BASHING",
+    "skill_used": "fabrication",
+    "skills_required": [ "survival", 2 ],
+    "difficulty": 3,
+    "time": "60 m",
+    "autolearn": true,
+    "qualities": [ { "id": "SAW_W", "level": 1 }, { "id": "CUT", "level": 2 } ],
+    "proficiencies": [ { "proficiency": "prof_carving" } ],
+    "components": [ [ [ "log", 1 ] ], [ [ "butter", 30 ], [ "edible_lard", 4, "LIST" ] ] ]
+  },
+  {
+    "type": "recipe",
     "activity_level": "MODERATE_EXERCISE",
     "result": "shillelagh_weighted",
     "category": "CC_WEAPON",
